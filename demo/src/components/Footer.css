@@ -1,0 +1,83 @@
+.main-container {
+    background-color: rgb(8, 19, 54);
+    padding: 20px;
+    color: white;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+  }
+  
+  .contact-info,
+  .company-info,
+  .popular-destinations {
+    margin: 10px;
+  }
+  
+  .contact-info img {
+    width: 130px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info pre {
+    white-space: pre-line; /* Preserves whitespace and line breaks */
+    font-family: Arial, sans-serif;
+  }
+  
+  .company-info ul,
+  .popular-destinations ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .company-info ul li,
+  .popular-destinations ul li {
+    margin: 5px 0;
+    padding: 5px 5px;
+  }
+  
+  .destination-subcontainer {
+    display: flex;
+  }
+  
+  .destination-subcontainer ul {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .destination-subcontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .destination-subcontainer ul {
+      margin: 10px 0;
+    }
+  }
+
+  .img-div{
+    
+    flex-wrap: wrap;
+  }
+  .img-section img{
+ 
+    width: 80px;
+    height: 70px;
+    border-radius: 20px;
+    padding: 8px;
+  }
+
+  .copyright{
+    border-top: 2px solid rgb(134, 130, 130);
+    padding: 10px;
+  }
