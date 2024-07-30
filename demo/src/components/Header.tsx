@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from "./img/Gold_and_Black_Plane_Travel_Creative_Logo__2_-removebg-preview.png";
-import user from "./img/user.png";
+import logo from "../img/Gold_and_Black_Plane_Travel_Creative_Logo__2_-removebg-preview.png";
+import user from "../img/user.png";
 import './Header.css';
 
-const Header = ({  }) => {
+const Header = () => {
     const role = "admin"
     const [showSidebar, setShowSidebar] = useState(false);
     const [showDropdown, setShowDropdown] = useState(false);

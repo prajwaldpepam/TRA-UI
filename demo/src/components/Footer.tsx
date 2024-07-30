@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import logo from "./img/Gold_and_Black_Plane_Travel_Creative_Logo__2_-removebg-preview.png";
-import travleImg from './img/travel.jpg'
+import logo from "../img/Gold_and_Black_Plane_Travel_Creative_Logo__2_-removebg-preview.png";
+import travleImg from '../img/travel.jpg'
 const Footer: React.FC = () => {
   return (
     <div className="main-container">

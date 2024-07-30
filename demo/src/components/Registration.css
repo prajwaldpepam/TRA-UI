@@ -1,0 +1,60 @@
+/* Registration.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.register-container {
+    width: 400px; /* Match login form width */
+    padding: 30px; /* Match login form padding */
+    border-radius: 10px;
+    border: 0.3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1.5px);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto; /* Center the registration container */
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px; /* Add margin bottom to create space between fields */
+    width: 100%;
+  }
+  
+  .input-group input {
+    width: 100%; /* Set input width to 100% */
+    padding: 12px; /* Increase padding to match login */
+    color: black;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid black;
+    backdrop-filter: blur(1.5px);
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    font-size: 18px; /* Increase font size to match login */
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px; /* Increase padding to match login */
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(34, 156, 34);
+    font-size: 18px; /* Increase font size to match login */
+    cursor: pointer;
+  }
+  
+  .action {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+  }
+  

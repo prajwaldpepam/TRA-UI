@@ -1,26 +1,19 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import Registration from "./components/Registration";
 import "./App.css";
-import Login from "./components/Login2";
-import Footer from "./components/Footer";
-import Admin from "./components/Admin";
+import Layout from "./Layout";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-        {/* <Admin /> */}
+    <>
+      <Router>
         <Routes>
-          {/* <Route path='/' element={<Login />} /> */}
-          {/* <Route path='/' element={<Sidebar />} /> */}
+          <Route path="/*" element={<Layout />} />
         </Routes>
-          <Login />
-        <Footer />
-      </div>
-    </BrowserRouter>
+      </Router>
+    </>
   );
 };
 
